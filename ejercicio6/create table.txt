@@ -1,0 +1,6 @@
+create table `account` (
+    `id` INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `username` TEXT (50) NOT NULL,
+    `password` TEXT(255) NOT NULL,
+    `email` TEXT(100) 
+)
