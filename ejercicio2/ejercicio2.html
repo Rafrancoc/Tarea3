@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://formsubmit.co/hildaanna1@gmail.com" method="POST" autocomplete="off">
+        <h2>Contacto</h2>
+        <div class="form-txt">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Terminos y Condiciones</a>
+        </div>
+        <div class="input-group">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="tel" name="phone" placeholder="Telefono">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+            <input class="btn" type="submit" value="Enviar">
+            <input type="hidden" name="_next" value="http://localhost:52330/ejercicio2/eje2.html">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+    <script src="script.js"></script>  
+</body>
+</html>
