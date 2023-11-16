@@ -1,0 +1,9 @@
+create table `tb_usuarios` 
+( 
+`nombre` TEXT (50) NOT NULL, 
+`apellidos` TEXT(100) NOT NULL, 
+`correo` TEXT(100), 
+`usuario` TEXT(50) NOT NULL, 
+`clave` TEXT(50) NOT NULL, 
+`telefono` TEXT(10) 
+);
